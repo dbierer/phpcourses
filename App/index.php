@@ -13,12 +13,6 @@ use App\Project;
 //extending the class
 class ProjectAge extends Project
 {
-    public function getProjectName(){
-        return $this->projectName;
-    }
-    public function getProjectAuthor(){
-        return $this->projectAuthor;
-    }
     public function getInterval(){
 
         $currentTime = new DateTime();
